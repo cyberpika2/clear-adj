@@ -1,7 +1,7 @@
 #!/bin/bash
-#####    ####
-# automated idempotent $PATH adjustment for opt installed user programs /opt/<$program>/bin
-# place as /etc/profile.d/opt_autopath.sh in clear
+# idempotent $PATH adjustment for /opt/<$program>/bin
+# for automating the automated automation
+# place as /etc/profile.d/opt_autopath.sh
 for \
     d in /opt/*/bin
     do
