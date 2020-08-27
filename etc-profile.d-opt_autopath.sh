@@ -1,5 +1,5 @@
 #!/bin/bash
-# idempotent $PATH adjustment for /opt/<$program>/bin
+# idempotent $PATH adjustment for clear linux
 # for automating the automated automation
 for \
     d in /opt/*/bin
